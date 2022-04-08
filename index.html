@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple HTML Doc</title>
+</head>
+<!--Style element contains the internal CSS. CSS is related to HTML which is responsible for styling the structure of the document and can be put externally if necessary. Though it is highly recommended to put them outside due to the fact that it adds up to the line of code of the HTML file. -->
+<style>
+  body{
+    background-color: lightgray;
+  }
+
+    h1, h2 ,h3, h4, h5, h6 ,p{ /*this highlights which tags should be stylized.Can also be done seperately if you want different styles on each headings.*/
+      font-family: Helvetica, sans-serif;
+        }
+
+
+        p {
+          font-size: 20px;
+          text-align: center;
+          margin: 100px; /*controls the space outside the element*/
+          padding: 30px; /*controls the space inside the element*/
+          border: 1px solid #999;
+        }
+</style>
+
+<body><!--The body tag will display the headings and paragraph all the way till the end tag-->
+  
+  <!--There are 6 Headings available in HTML. 1 is the Biggest and 6 is the smallest in terms of font size. Its importance is labeled on the respective levels.-->
+  <h1>This is H1 tag.</h1>
+  <h2>This is H2 tag.</h2>
+  <h3>This is H3 tag.</h3>
+  <h4>This is H4 tag.</h4>
+  <h5>This is H5 tag.</h5>
+  <h6>This is H6 tag.</h6>
+
+  <!--This is a paragraph tag, or p tag for short and it represents the paragraph of the document. p tags can be stylized using CSS as well.-->
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+</body>
+</html>
